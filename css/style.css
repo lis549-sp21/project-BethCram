@@ -1,0 +1,54 @@
+/* General Font Rules */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+/* Heading Rules */
+header {
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+/* Nav Bar rules */
+nav {
+    width: 100%;
+    background-color: lightcyan;
+
+}
+
+nav li {
+    display: inline;
+    padding-left: 8rem;
+    padding-right: 10rem;
+}
+/*  nav bar unvisited link */
+nav li a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+/* nav bar visited link */
+nav li a:visited {
+    color: rgb(109, 96, 209);
+}
+
+/* nav bar mouse over link */
+nav li a:hover {
+    color: #ce0e0e;
+    border-bottom: .2rem solid;
+    border-bottom-color: #ce0e0e;
+
+}
+
+/* selected link */
+nav li a:active {
+    color: #f0f0f0;
+}
+body p {
+    text-size-adjust: 20px;
+    background-color:beige;
+
+}
