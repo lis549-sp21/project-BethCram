@@ -3,25 +3,26 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
+    
 
 }
 /* Heading Rules */
 header {
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: rgb(229, 224, 217);
 
 }
 /* Nav Bar rules */
 nav {
     width: 100%;
-    background-color: lightcyan;
+    background-color: rgb(232, 248, 248);
 
 }
 
 nav li {
     display: inline;
     padding-left: 8rem;
-    padding-right: 10rem;
+    padding-right: 8rem;
 }
 /*  nav bar unvisited link */
 nav li a {
@@ -48,7 +49,6 @@ nav li a:active {
     color: #f0f0f0;
 }
 body p {
-    text-size-adjust: 20px;
-    background-color:beige;
+    text-size-adjust: 20rem;
 
 }
