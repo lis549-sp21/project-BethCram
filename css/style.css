@@ -55,3 +55,75 @@ body p {
 .ratesandfees {
     background-color: darkkhaki;
 }
+/* mobile screens */
+body {
+    margin: .5rem;
+   
+}
+
+nav {
+    font-size: 2.5rem;
+    margin-right: .5em;
+}
+
+nav a {
+    color: white
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2em;
+}
+
+footer {
+    display: none;
+}
+
+/* screen width 598px or greater */
+@media(min-width:598px) {
+
+
+}
+
+/* screen width 768px or greater */
+@media(min-width:768px) {
+    
+
+    /* image height */
+
+    html {
+        height: 100%;
+    }
+
+    main {
+        text-shadow: 1px 1px #153c43;
+    }
+
+   
+}
+
+/* screen width 992px or greater */
+@media(min-width:992px) {
+   
+
+    nav {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+/* screen width 1200px or greater */
+@media(min-width:1200px) {
+  
+}
