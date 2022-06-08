@@ -56,6 +56,7 @@ body p {
 }
 .ratesandfees {
     background-color: darkkhaki;
+    text-size-adjust: 30rem;
 }
 /* mobile screens */
 @media(min-width:320px) {
