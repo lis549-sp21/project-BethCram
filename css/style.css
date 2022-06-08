@@ -51,12 +51,12 @@ nav li a:active {
     color: #f0f0f0;
 }
 body p {
-    text-size-adjust: 20rem;
+    font-size: 1.5rem;
 
 }
 .ratesandfees {
     background-color: darkkhaki;
-    text-size-adjust: 30rem;
+    font-size: 1.75rem;
 }
 /* mobile screens */
 @media(min-width:320px) {
@@ -175,6 +175,9 @@ footer {
     }
 
     p {
+        font-size: large;
+    }
+    .ratesandfees {
         font-size: large;
     }
     
