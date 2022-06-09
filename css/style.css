@@ -1,20 +1,22 @@
 /* General Font Rules */
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     text-align: center;
 }
+
 /* Heading Rules */
 header {
     text-align: center;
     background-color: rgb(229, 224, 217);
- 
+
 }
+
 /* Nav Bar rules */
 nav {
     width: 100%;
     background-color: rgb(232, 248, 248);
-    
+
 
 }
 
@@ -24,14 +26,15 @@ nav li {
     padding-right: 1em;
     width: 40%;
     text-align: center;
-    
+
 }
+
 /*  nav bar unvisited link */
 nav li a {
     color: black;
     text-decoration: none;
 
-    
+
 }
 
 /* nav bar visited link */
@@ -53,73 +56,88 @@ nav li a:active {
 }
 
 /* CSS Flexbox */
+
 .row {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 4px;
 }
+
 .column {
-    flex: 50%;
+    flex: 25%;
+    max-width: 25%;
     padding: 0 4px;
 }
+
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+    width: 100%;
 }
+
 body p {
     font-size: 1.5rem;
     padding: 2em;
 
 }
+
 .ratesandfees {
     background-color: darkkhaki;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
+
 /* mobile screens */
 @media(min-width:320px) {
-body {
-    margin: .5rem;
-   
+    body {
+        margin: .5rem;
+
+    }
+
+    /* image  */
+
+    img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    nav {
+        font-size: medium;
+        margin-right: .5rem;
+
+    }
+
+    nav a {
+        display: block;
+        width: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    h1 {
+        font-size: small;
+        margin-top: 3rem;
+    }
+
+    h2 {
+        font-size: medium;
+        margin-top: 1rem;
+    }
+
+    p {
+        font-size: x-small;
+    }
+
+    footer {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
 }
- /* image  */
-
- img {
-     max-width: 70%;
-     height: auto;
- }
-
-nav {
-    font-size: medium;
-    margin-right: .5rem;
-    
-}
-
-nav a {
-    display: block;
-    width: 40px;
-    color: white;
-    text-align: center;
-}
-
-h1 {
-    font-size: small;
-    margin-top: 3rem;
-}
-
-h2 {
-    font-size: medium;
-    margin-top: 1rem;
-}
-
-p {
-    font-size: x-small;
-}
-
-footer {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}}
 
 /* screen width 598px or greater */
 @media(min-width:598px) {
@@ -148,6 +166,12 @@ footer {
         height: auto;
     }
 
+    .column {
+        flex: 100%;
+        max-width: 100%;
+
+    }
+
     main {
         text-shadow: 1px 1px black;
     }
@@ -155,12 +179,12 @@ footer {
     p {
         font-size: small;
     }
-   
+
 }
 
 /* screen width 992px or greater */
 @media(min-width:992px) {
-   
+
 
     nav {
         font-size: 2rem;
@@ -177,7 +201,7 @@ footer {
     p {
         font-size: medium;
     }
-    
+
 }
 
 /* screen width 1200px or greater */
@@ -197,9 +221,11 @@ footer {
     p {
         font-size: large;
     }
+
     main {
         font-size: large;
     }
+
     .ratesandfees {
         font-size: large;
     }
@@ -207,5 +233,5 @@ footer {
     img {
         margin: 2em;
     }
-    
+
 }
