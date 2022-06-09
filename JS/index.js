@@ -1,1 +1,0 @@
-$('img').css("curser","pointer");
