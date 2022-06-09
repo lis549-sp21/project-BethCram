@@ -115,8 +115,8 @@ body p {
     }
 
     .column {
-        flex: 50%;
-        max-width: 50%;
+        flex: 25%;
+        max-width: 25%;
     }
 
     h1 {
@@ -146,6 +146,10 @@ body p {
         width: 100%;
         color: white
     }
+    .column {
+        flex: 30%;
+        max-width: 30%;
+    }
 
 }
 
@@ -167,8 +171,8 @@ body p {
     }
 
     .column {
-        flex: 100%;
-        max-width: 100%;
+        flex: 40%;
+        max-width: 40%;
 
     }
 
@@ -201,6 +205,11 @@ body p {
     p {
         font-size: medium;
     }
+    .column {
+        flex: 50%;
+        max-width: 40%;
+
+    }
 
 }
 
@@ -232,6 +241,12 @@ body p {
 
     img {
         margin: 2em;
+    }
+
+    .column {
+        flex: 55%;
+        max-width: 40%;
+
     }
 
 }
